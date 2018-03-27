@@ -7,7 +7,7 @@
     scanf("%d",&n);
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
-   
+
     for(i=0,j=n-1;i<j;i++,j--)
     {
     if(a[i]!=a[j])
@@ -17,7 +17,7 @@
     }
     if(a[i]>7)
     {
-    printf("no\n"); 
+    printf("no\n");
     break;
     }
     if((a[i+1]-a[i])!=1 && (a[i+1]-a[i])!=0)
@@ -26,7 +26,7 @@
     break;
     }
     }
-     
+
     if(i>=j)
     {
     if(a[i]==7)
@@ -36,7 +36,7 @@
 else
 printf("no\n");
     }
-    
+
     }
     return 0;
-    }  
+    }
